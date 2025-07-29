@@ -30,7 +30,7 @@ body::before {
 
 .card {
   width: 90%;
-  max-width: 600px;
+  max-width: 650px;
   background: #fff;
   border: 2px solid #bfbfbf;
   border-radius: 12px;
@@ -51,7 +51,7 @@ body::before {
 }
 
 .card-body {
-  padding: 70px 50px;
+  padding: 70px 40px;
 }
 
 h1 {
