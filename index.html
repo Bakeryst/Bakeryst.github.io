@@ -14,33 +14,120 @@
       <div class="card-body">
         <h1>hi! <span class="highlight">i'm bakery</span></h1>
         <p class="subtitle">graphic designer, tech enthusiast, and music enthusiast</p>
+
         <nav class="main-nav">
-          <a href="#">
+          <label for="modal-about" class="nav-item">
             <div class="icon-bubble"><i class="fa-solid fa-circle-info"></i></div>
             <span>about</span>
-          </a>
-          <a href="#">
+          </label>
+
+          <label for="modal-links" class="nav-item">
             <div class="icon-bubble"><i class="fa-solid fa-paperclip"></i></div>
             <span>links</span>
-          </a>
-          <a href="#">
+          </label>
+
+          <label for="modal-faq" class="nav-item">
             <div class="icon-bubble"><i class="fa-solid fa-circle-question"></i></div>
             <span>faq</span>
-          </a>
-          <a href="#">
+          </label>
+
+          <label for="modal-contact" class="nav-item">
             <div class="icon-bubble"><i class="fa-solid fa-envelope"></i></div>
             <span>contact</span>
-          </a>
+          </label>
         </nav>
       </div>
     </main>
+
     <footer>
       <div class="social-icons">
         <a href="https://github.com/Bakeryst"><i class="fa-brands fa-github"></i></a>
         <a href="https://www.youtube.com/@Bakeryst"><i class="fa-brands fa-youtube"></i></a>
         <a href="#"><i class="fa-brands fa-discord"></i></a>
       </div>
-      <p class="copyright">&copy; 2025 Bakeryst</p>
+      <p class="copyright">© 2025 Bakeryst</p>
     </footer>
+
+    <input type="checkbox" id="modal-about" class="modal-toggle" />
+    <div class="modal-container">
+      <div class="modal-box">
+        <div class="modal-header">
+          <span class="modal-title">about</span>
+          <label for="modal-about" class="modal-close-btn">×</label>
+        </div>
+        <div class="modal-content">
+          <h2><i class="fa-solid fa-circle-info"></i> About Me</h2>
+          <p>
+            I am a university student with a strong interest in technology, particularly in video editing, programming, and system development. Between attending classes and assisting with my family's business, I continue to develop my
+            skills in creative and digital fields. I am also actively exploring various areas of technology and have a deep appreciation for game soundtrack music.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <input type="checkbox" id="modal-links" class="modal-toggle" />
+    <div class="modal-container">
+      <div class="modal-box">
+        <div class="modal-header">
+          <span class="modal-title">links</span>
+          <label for="modal-links" class="modal-close-btn">×</label>
+        </div>
+        <div class="modal-content">
+          <h2><i class="fa-solid fa-paperclip"></i> My Links</h2>
+          <p>Learn More About Me:</p>
+          <ul>
+            <li><a href="#" target="_blank">Facebook</a></li>
+            <li><a href="https://github.com/Bakeryst" target="_blank">GitHub</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <input type="checkbox" id="modal-faq" class="modal-toggle" />
+    <div class="modal-container">
+      <div class="modal-box">
+        <div class="modal-header">
+          <span class="modal-title">faq</span>
+          <label for="modal-faq" class="modal-close-btn">×</label>
+        </div>
+        <div class="modal-content">
+          <h2><i class="fa-solid fa-circle-question"></i> FAQ</h2>
+          <p>
+            <strong>Question:</strong> What kind of music do you enjoy the most?<br />
+            <strong>Answer:</strong> I enjoy game soundtracks — they’re immersive, emotional, and perfect for tasks or late-night overthinking.
+          </p>
+          <p>
+            <strong>Question:</strong> Any favorite games when it comes to music?<br />
+            <strong>Answer:</strong> Absolutely. Undertale, Deltarune, and Nico Nextbots offer soundtracks that range from relaxing to chaotic brilliance.
+          </p>
+          <p>
+            <strong>Question:</strong> Isn’t it unusual to prefer soundtracks over popular music?<br />
+            <strong>Answer:</strong> Not really. Soundtracks tell stories without lyrics — sometimes, they express more than words ever could (and no awkward lyrics to explain).
+          </p>
+          <p>
+            <strong>Question:</strong> Do you have an all-time favorite track?<br />
+            <strong>Answer:</strong> I rotate between favorites, but any song that makes daily life feel like a cutscene deserves a replay.
+          </p>
+          <p>
+            <strong>Question:</strong> When do you usually listen to music?<br />
+            <strong>Answer:</strong> While editing videos, working, helping at the store, or just reflecting. Basically, music is my daily background score.
+          </p>
+        </div>
+      </div>
+    </div>
+    <input type="checkbox" id="modal-contact" class="modal-toggle" />
+    <div class="modal-container">
+      <div class="modal-box">
+        <div class="modal-header">
+          <span class="modal-title">contact</span>
+          <label for="modal-contact" class="modal-close-btn">×</label>
+        </div>
+        <div class="modal-content">
+          <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
+          <p>Got questions? Send me an email at:<br /><strong>bakeryst05@gmail.com</strong></p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
