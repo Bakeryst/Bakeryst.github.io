@@ -181,7 +181,7 @@ footer {
   color: #444;
   overflow: hidden;
   transform: scale(0.9);
-  transition: transform 0.3s ease;
+  transition: transform 0.35s ease;
 }
 
 .modal-toggle:checked + .modal-container .modal-box {
