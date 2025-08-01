@@ -257,3 +257,9 @@ footer {
 .modal-content ul li a:hover {
   text-decoration: underline;
 }
+@media (max-height: 700px) {
+  .modal-content {
+    max-height: 65vh;
+    overflow-y: auto;
+  }
+}
